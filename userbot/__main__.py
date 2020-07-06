@@ -44,7 +44,7 @@ else:
                 del heroku_var[variable]
             else:
                 print("Start-Up Completed!")
-        print("Deploying HexBot!")
+        print("Deploying RemoveChinaBot-HexBot!")
     else:
         bot.start()
     
@@ -60,7 +60,7 @@ for name in files:
 
 import userbot._core
 
-print("HexBot Deployed Successfully!")
+print("RemoveChinaBot-HexBot Deployed Successfully!")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
