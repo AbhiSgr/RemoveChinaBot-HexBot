@@ -26,7 +26,7 @@ async def _(event):
 
         animation_chars = [
         
-            "[Deploy RemoveChinaBot-HexBot Now](https://github.com/AbhiSgr/remove-china-bot/)"
+            "Deploy [RemoveChinaBot-HexBot](https://github.com/AbhiSgr/RemoveChinaBot-HexBot/) Now"
 
  ]
 
