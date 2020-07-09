@@ -12,5 +12,5 @@ async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await alive.edit("`Félicitations! RemoveChinaBot Is Onto Destroying Sluts!`"
                      "`Telethon version: 6.9.0\nPython: 3.7.3\n`"
-                     "`Bot created by:` [AbhiSagar](https://t.me/AbhiSagar)\n"
-                     f"`99% of the Credits To:` [Akashi](https://t.me/emperor_akashi)")
+                     "`Bot kanged by:` [AbhiSagar](https://t.me/AbhiSagar)\n"
+                     f"`99.99% of the Credits To:` [Akashi](https://t.me/emperor_akashi)")
