@@ -137,7 +137,7 @@ async def promote(promt):
     try:
         await promt.client(
             EditAdminRequest(promt.chat_id, user.id, new_rights, rank))
-        await promt.edit("`Promoted Successfully!`")
+        await promt.edit("`Promoted Successfully!\nAdmin Bana Diya,Sukhi Raho!`")
 
     # If Telethon spit BadRequestError, assume
     # we don't have Promote permission
@@ -167,8 +167,8 @@ async def demote(dmod):
         return
 
     # If passing, declare that we're going to demote
-    await dmod.edit("`Demoting...`")
-    rank = "admeme"  # dummy rank, lol.
+    await dmod.edit("`Demoting That Piece of SHIT...`")
+    rank = "Admeme"  # dummy rank, lol.
     user = await get_user_from_event(dmod)
     user = user[0]
     if user:
@@ -193,7 +193,7 @@ async def demote(dmod):
     except BadRequestError:
         await dmod.edit(NO_PERM)
         return
-    await dmod.edit("`Demoted Successfully!`")
+    await dmod.edit("`Demoted That Pain in the Arse!`")
 
     # Announce to the logging group if we have demoted successfully
     if BOTLOG:
@@ -231,7 +231,7 @@ async def _(event):
     except (Exception) as exc:
         await event.edit(str(exc))
     else:
-        await event.edit(f"{input_cmd}ned Successfully!")
+        await event.edit(f"{input_cmd}ned \'em, ezpeezy!")
 
 
 @borg.on(admin_cmd(pattern="pgs ?(.*)", allow_sudo=True))
@@ -261,7 +261,7 @@ async def _(event):
             msgs = []
             await event.delete()
         else:
-            await event.edit("**PURGE** Failed!")
+            await event.edit("**PURGE** Failed! LMAO!!!")
 
 
 @borg.on(admin_cmd(pattern="(ban|unban) ?(.*)"))
@@ -292,7 +292,7 @@ async def _(event):
     except (Exception) as exc:
         await event.edit(str(exc))
     else:
-        await event.edit(f"{input_cmd}ned Successfully!")
+        await event.edit(f"{input_cmd}ned \'em ezpeezy!")
 
 
 @register(incoming=True)
@@ -358,7 +358,7 @@ async def promote(promt):
     try:
         await promt.client(
             EditAdminRequest(promt.chat_id, user.id, new_rights, rank))
-        await promt.edit("`Promoted Successfully!`")
+        await promt.edit("`Promoted Successfully!\nAdmin Bana Diya,Sukhi Raho!`")
 
     # If Telethon spit BadRequestError, assume
     # we don't have Promote permission
